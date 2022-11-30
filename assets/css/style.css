@@ -56,7 +56,7 @@ header{
     margin-bottom: 2rem;
 }
 .home-text h1{
-    font-size:3rem;
+    font-size:2.5rem;
     line-height: 4rem;
     margin-bottom: 2rem;
 }
@@ -64,12 +64,14 @@ header{
     margin-bottom:3rem;
 }
 .home-btn {
-    padding:20px;
+    flex-wrap: wrap;
+    padding:15px;
     background-color: #E9AF0F;
     border-radius: 15px;
     font-weight: bolder;
     color: #fff;
     animation: pulse 2s alternate infinite;
+    word-break:keep-all;
 }
 .home a {
     text-decoration: none;
@@ -100,7 +102,7 @@ header{
 footer{
     background-color: #ffffff;
     width: 100%;
-    padding: 12px;
+    padding: 18px;
     text-align: center;
     font-weight: lighter;
     font-size: 20px;
@@ -154,4 +156,9 @@ footer{
         rotate: -45deg;
         max-width: 20rem;
     }
+}
+.color{
+    color: #E9AF0F;
+    font-weight: bolder;
+    font-size: 20px;
 }
